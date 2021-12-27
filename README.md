@@ -15,7 +15,7 @@ possible (and even necessary sometimes) to squeeze out less execution time and m
 
 <details>
   <summary>Click to expand</summary>
-This utility's implementation is simple: It constructs bytecode using [ASM](https://asm.ow2.io) to generate a class
+This utility's implementation is simple: It constructs bytecode using <a href="https://asm.ow2.io">ASM</a> to generate a class
 that directly invokes the method
 
 ```java
