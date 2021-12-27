@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/Revxrsal/asm-invoke-util.svg)](https://jitpack.io/#Revxrsal/asm-invoke-util)
 # asm-invoke-util
 
 A small utility that provides a faster alternative to reflections for invoking methods.
@@ -87,6 +88,7 @@ public static void main(String[] args) {
 ```
 
 # Final notes
+
 Because this library effectively generates code that calls the method directly, it is impossible to use ASM to invoke
 private methods. Similarly, due to some limitations in newer Java version, it is impossible to invoke package-private
 ones. In such cases, the utility will automatically fallback to the MethodHandles API when ASM is not a choice.
